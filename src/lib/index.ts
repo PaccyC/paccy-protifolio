@@ -60,8 +60,8 @@ export const projects = [
     description: "A mobile application that aims at solving problems in transport by allowing the users to book buses for their journeys and are able to track the buses they have booked.",
     image: "/images/etix.png",
     tags: ["React Native", "TailwindCSS", "Socket.io","Google Maps"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://etix.vercel.app/",
+    githubUrl: "https://github.com/ETix-org/ETix-mobile",
   },
   {
     id: 2,
@@ -71,7 +71,7 @@ export const projects = [
     image: "/images/finebank.png",
     tags: ["Springboot", "Docker", "React","Kubernetes","Typescript"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/PaccyC/banking-system-springboot-microservices-kafka-zipkin",
   },
   {
     id: 3,
@@ -79,9 +79,9 @@ export const projects = [
     description:
       "Full-featured e-commerce platform with user authentication and payment processing.",
     image: "/images/ecommerce.png",
-    tags: ["React", "Sanity", "Stripe","UI/UX"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["Nextjs", "Sanity", "Stripe","UI/UX"],
+    demoUrl: "https://ecommerce-app-ivory-beta.vercel.app/",
+    githubUrl: "https://github.com/PaccyC/ecommerce-app",
   },
    {
     id: 4,
@@ -91,7 +91,7 @@ export const projects = [
     image: "/images/petia.png",
     tags: ["React Native", "NativeWind"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/PaccyC/petia-react-native-main",
   },
    {
     id: 5,
@@ -101,7 +101,7 @@ export const projects = [
     image: "/images/snapgram.png",
     tags: ["React", "TailwindCSS", "Shadcn"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/PaccyC/socialmedia-app-react-appwrite-react-query",
   },
    {
     id: 6,
@@ -111,6 +111,6 @@ export const projects = [
     image: "/images/vita.png",
     tags: ["React Native", "Nativewind"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/PaccyC/vita-mobile-app",
   },
 ];

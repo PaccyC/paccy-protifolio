@@ -43,6 +43,7 @@ const ProjectsSection = () => {
                                 <ExternalLink size={20}/>
                             </a>
                             <a 
+                            target="_blank"
                             href={project.githubUrl}
                             className="text-foreground/80 hover:text-primary transition-colors duration-300"
                             >

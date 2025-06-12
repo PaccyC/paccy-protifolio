@@ -6,7 +6,6 @@ import Navbar from "@/components/Navbar"
 import ProjectsSection from "@/components/ProjectsSection"
 import SkillsSection from "@/components/SkillsSection"
 import StarBackground from "@/components/StarBackground"
-import ThemeToggle from "@/components/ThemeToggle"
 
 const Home = () => {
   return (
@@ -15,13 +14,11 @@ const Home = () => {
         {/* Background effects */}
 
         <StarBackground/>
-
-
-        {/* Theme toggle */}
-        <ThemeToggle/>
+    
         {/* Navbar */}
 
         <Navbar/>
+ 
 
 
         {/* Main Content */}

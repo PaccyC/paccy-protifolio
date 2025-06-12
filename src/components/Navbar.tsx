@@ -2,6 +2,7 @@ import { cn } from "@/lib/utils"
 import { useEffect, useState } from "react"
 import { navLinks } from "@/lib"
 import { Menu, X } from "lucide-react"
+import ThemeToggle from "./ThemeToggle"
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -10,7 +11,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 10) 
+      setIsScrolled(window.scrollY > 10)
     }
     window.addEventListener("scroll", handleScroll)
     return () => window.removeEventListener("scroll", handleScroll)
@@ -19,7 +20,7 @@ const Navbar = () => {
   return (
     <nav
       className={cn(
-        "fixed w-full z-40 transition-all duration-300",
+        "fixed w-full px-8 flex z-40 transition-all duration-300",
         isScrolled ? "py-3 bg-background/80 backdrop-blur-md shadow-xs" : "py-5"
       )}
     >
@@ -30,7 +31,8 @@ const Navbar = () => {
             <span className="text-glow text-foreground">Pacifique</span> Portfolio
           </span>
         </a>
-        <div className="hidden md:flex space-x-8">
+        <div className="hidden md:flex items-center space-x-12">
+          <div className="hidden md:flex space-x-8">
           {navLinks.map((link, key) => (
             <a
               key={key}
@@ -40,6 +42,9 @@ const Navbar = () => {
               {link.name}
             </a>
           ))}
+
+          </div>
+          <ThemeToggle/>
         </div>
 
         {/* Mobile navigation */}

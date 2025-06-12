@@ -26,12 +26,12 @@ const Navbar = () => {
     >
       <div className="container flex items-center justify-between">
         <a 
-        className="text-xl font-bold text-primary flex items-center" href="#hero">
+        className="text-xl font-bold text-primary flex items-center cursor-pointer" href="#hero">
           <span className="relative z-10">
             <span className="text-glow text-foreground">Pacifique</span> Portfolio
           </span>
         </a>
-        <div className="hidden md:flex items-center space-x-12">
+        <div className="flex items-center space-x-12">
           <div className="hidden md:flex space-x-8">
           {navLinks.map((link, key) => (
             <a
